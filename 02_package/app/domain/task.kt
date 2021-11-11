@@ -14,4 +14,7 @@ class Task constructor(title: String) {
     var title: String = title
         private set
 
+    override fun toString(): String {
+        return "${this.title} - ${this.status}"
+    }
 }

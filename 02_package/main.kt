@@ -2,7 +2,6 @@ import app.domain.*
 
 
 fun main() {
-    val task = Task("")
-//    task.status = TaskStatus.DONE
-    println(task.status)
+    val task = Task("Doing Job")
+    println(task)
 }
